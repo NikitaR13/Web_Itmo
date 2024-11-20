@@ -1,0 +1,91 @@
+/* Общие стили для страницы */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif; /* Семейство шрифтов */
+    font-size: 16px; /* Размер шрифта */
+    line-height: 1.5; /* Высота строки */
+    background-color: #2e2e2e; /* Темно-серый фон страницы */
+    color: #f5f5f5; /* Светлый текст */
+}
+
+/* Стили для заголовка */
+.header {
+    background-color: #1a237e; /* Темно-синий фон */
+    color: #ffffff; /* Белый текст */
+    padding: 20px;
+    text-align: center; /* Горизонтальное выравнивание */
+}
+
+.header__nav ul {
+    list-style: none; /* Убираем маркеры списка */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Выравнивание по центру */
+    gap: 15px; /* Расстояние между элементами */
+}
+
+.header__nav a {
+    text-decoration: none; /* Убираем подчеркивание */
+    color: #bbdefb; /* Светло-голубой текст ссылок */
+    font-weight: bold; /* Насыщенный шрифт */
+}
+
+.header__nav a:hover {
+    color: #ffd700; /* Золотистый цвет при наведении */
+}
+
+/* Стили для секции "Каталог" */
+#catalog {
+    background-color: #424242; /* Средний серый фон */
+    padding: 20px;
+    border-radius: 10px; /* Скругленные углы */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5); /* Тень */
+}
+
+.car-item {
+    background-color: #616161; /* Серый фон карточек */
+    border: 1px solid #757575; /* Граница */
+    border-radius: 8px; /* Скругленные углы */
+    padding: 15px;
+    color: #e0e0e0; /* Светлый текст */
+    margin-bottom: 15px;
+}
+
+/* Стили для текста */
+h2, h3 {
+    text-transform: uppercase; /* Заглавные буквы */
+    text-align: center; /* Горизонтальное выравнивание */
+}
+
+p {
+    margin: 10px 0; /* Отступы между абзацами */
+    text-align: justify; /* Выравнивание текста по ширине */
+}
+
+cite {
+    display: block;
+    font-style: italic; /* Курсив */
+    text-align: right; /* Горизонтальное выравнивание вправо */
+    margin-top: 20px;
+}
+
+pre {
+    background-color: #333333; /* Темный фон */
+    color: #ffffff; /* Белый текст */
+    padding: 10px;
+    border-radius: 5px; /* Скругленные углы */
+    overflow-x: auto; /* Прокрутка по горизонтали */
+}
+
+/* Стили для футера */
+footer {
+    background-color: #1a237e; /* Темно-синий фон */
+    color: #ffffff; /* Белый текст */
+    padding: 10px;
+    text-align: center; /* Выравнивание текста по центру */
+}
+
+footer p {
+    margin: 5px 0;
+}
