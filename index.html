@@ -5,60 +5,78 @@
     <title>Автосалон "Luxury Palace Saint-Petersburg"</title>
     <meta name="description" content="Автосалон 'Luxury Palace Saint-Petersburg' предлагает эксклюзивные автомобили от ведущих мировых брендов. У нас вы найдете широкий выбор спорткаров и роскошных автомобилей.">
     <meta name="keywords" content="автосалон, автомобили, спорткары, роскошные автомобили, купить автомобиль, новый автомобиль, авто, Luxury Palace Saint-Petersburg">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-<header>
-    <h2>Автосалон "Luxury Palace Saint-Petersburg"</h2>
+<header class="header">
+    <h2 class="header__title">Автосалон "Luxury Palace Saint-Petersburg"</h2>
     <nav>
-        <ul>
-            <li><a href="#catalog">Автомобили</a></li>
-            <li><a href="#about">О нас</a></li>
-            <li><a href="#contacts">Контакты</a></li>
+        <ul class="nav__list">
+            <li class="nav__item"><a class="nav__link" href="#catalog">Автомобили</a></li>
+            <li class="nav__item"><a class="nav__link" href="#about">О нас</a></li>
+            <li class="nav__item"><a class="nav__link" href="#contacts">Контакты</a></li>
         </ul>
     </nav>
 </header>
 
 <main>
-    <section id="catalog">
-        <h2>Наш автопарк</h2>
+    <section id="catalog" class="section">
+        <h2 class="section__title">Наш автопарк</h2>
         <div class="car-items">
-            <div class="car-item">
-                <h3>Lamborghini Aventador</h3>
+            <article class="car-item">
+                <h3 class="car-item__title">Lamborghini Aventador</h3>
                 <img src="https://media.istockphoto.com/id/1441495103/ru/фото/авентадор-svj.jpg?s=612x612&w=is&k=20&c=YKWEjvAUPZkbNcjIGZC-TRTR66WdVrQ-rDnn--0NuhI=" alt="Lamborghini Aventador" width="200">
                 <p><strong>Цена:</strong> от 25 000 000 рублей</p>
                 <p><em>Описание:</em> Мощный и стильный суперкар, воплощающий в себе скорость и роскошь.</p>
-            </div>
-
-            <div class="car-item">
-                <h3>Ferrari 488 GTE</h3>
+            </article>
+    
+            <article class="car-item">
+                <h3 class="car-item__title">Ferrari 488 GTE</h3>
                 <img src="https://as2.ftcdn.net/v2/jpg/03/90/58/95/1000_F_390589511_B2JYmMSxBlztAYoBJ6tj9brTgQHvr7gt.jpg" alt="Ferrari 488 GTE" width="200">
                 <p><strong>Цена:</strong> от 22 000 000 рублей</p>
                 <p><em>Описание:</em> Исключительный спорткар, обладающий впечатляющей динамикой и неповторимым стилем.</p>
-            </div>
-
+            </article>
+    
+            <article class="car-item">
+                <h3 class="car-item__title">Porsche 911 Turbo</h3>
+                <img src="https://car-images.bauersecure.com/wp-images/3231/9922_58.jpg" alt="Porsche 911 Turbo" width="200">
+                <p><strong>Цена:</strong> от 18 000 000 рублей</p>
+                <p><em>Описание:</em> Элегантный и мощный спорткар, сочетающий в себе высокую производительность и комфорт.</p>
+            </article>
+    
+            <article class="car-item">
+                <h3 class="car-item__title">Aston Martin DB11</h3>
+                <img src="https://www.astonmartinwashingtondc.com/imagetag/2637/main/l/New-2021-Aston-Martin-DB11-1624557796.jpg" alt="Aston Martin DB11" width="200">
+                <p><strong>Цена:</strong> от 15 000 000 рублей</p>
+                <p><em>Описание:</em> Икона стиля и изысканности, идеально подходящая для любителей роскоши.</p>
+            </article>
+    
+            <article class="car-item">
+                <h3 class="car-item__title">McLaren 720S</h3>
+                <img src="https://media.istockphoto.com/id/1138819476/photo/mclaren-720s.jpg?s=612x612&w=0&k=20&c=QLnrxcLRC9SGktxjqZ1jCLIi6ViE_D3_L_XwECf55c0=" alt="McLaren 720S" width="200">
+                <p><strong>Цена:</strong> от 30 000 000 рублей</p>
+                <p><em>Описание:</em> Один из самых быстрых и технологичных суперкаров в мире, предлагающий невероятные ощущения на дороге.</p>
+            </article>
         </div>
     </section>
 
-    <section id="about">
-        <h3>Автосалон "Luxury Palace Saint-Petersburg": ваш путь к мечте</h3>
+    <section id="about" class="section">
+        <h3 class="section__subtitle">Автосалон "Luxury Palace Saint-Petersburg": ваш путь к мечте</h3>
         <p>Мы предлагаем эксклюзивные автомобили, воплощающие в себе высочайший уровень качества, комфорта и стиля. </p>
-        <blockquote>
+        <blockquote class="blockquote">
             <p><em>"Дорога — это не место назначения, а путешествие."</em></p>
             <cite>— Робин Шарма</cite>
         </blockquote>
     </section>
 
-    <aside>
-        <h3>О нас</h3>
-        <p>Автосалон "АLuxury Palace Saint-Petersburg" — это команда профессионалов, 
-        преданных своей работе и стремящихся обеспечить своим клиентам 
-        максимальный комфорт и удовлетворение. </p>
+    <aside class="aside">
+        <h3 class="aside__title">О нас</h3>
+        <p>Автосалон "Luxury Palace Saint-Petersburg" — это команда профессионалов, преданных своей работе и стремящихся обеспечить своим клиентам максимальный комфорт и удовлетворение.</p>
 
-
-        <h3>Наши преимущества</h3>
+        <h3 class="aside__subtitle">Наши преимущества</h3>
         <p>Выбирая автосалон "Luxury Palace Saint-Petersburg", вы получаете:</p>
-        <pre><code>
+        <pre class="preformatted"><code>
             - Широкий выбор автомобилей
             - Выгодные условия покупки
             - Профессиональное обслуживание
@@ -66,7 +84,7 @@
         </code></pre>
     </aside>
 
-    <pre>
+    <pre class="ascii-art">
         .
         ╲╲╲╲┗━━┳┳━━┛╱╱╱╱
         ╲╲╭━━╮╭┻┻╮╭━━╮╱╱
@@ -74,26 +92,24 @@
         ╲╲╰━╭┻╯┃┃╰┻╮━╯╱╱
         ╲╭━╮╭━╲╭╮╱━╮╭━╮╱
         ╲┃┊┣┻━━╰╯━━┻┫┊┃╱
-        \╰━┗━━━━━━━━┛━╯╱
+        ╰━┗━━━━━━━━┛━╯
     </pre>
 
-    <code>
+    <code class="code">
         Пример кода :
-        printf(hello world!)
+        printf("hello world!");
     </code>
 
-    <section id="contacts">
-        <h2>Контакты</h2>
+    <section id="contacts" class="section">
+        <h2 class="section__title">Контакты</h2>
         <p>Адрес: г. Санкт-Петербург, ул. Манчестерская, д. 1</p>
         <p>Телефон: +7 (913) 185-55-55</p>
         <p>Email: luxury_place_spb@gmail.com</p>
         <p>График работы: с 10:00 до 20:00 (без выходных)</p>
     </section>
 </main>
-
-<footer>
+<footer class="footer">
     <p><strong>Формула успеха:</strong> <sub>Труд</sub> + <sup>Упорство</sup> = <sup>Успех</sup></p>
-    
     <p>&copy; 2023 Автосалон "Luxury Palace Saint-Petersburg"</p>
 </footer>
 
