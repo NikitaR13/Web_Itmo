@@ -1,0 +1,45 @@
+@import url('styles2.css');
+
+#gallery {
+    text-align: center;
+    padding: 20px;
+}
+
+#preloader {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--title-font-color);
+}
+
+.photos-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 15px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.photo-item {
+    background: var(--car-item-bg-color);
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.photo-thumbnail {
+    width: 100%;
+    border-radius: 6px;
+    transition: transform 0.3s ease;
+}
+
+.photo-thumbnail:hover {
+    transform: scale(1.1);
+}
+
+.photo-title {
+    font-size: 14px;
+    margin-top: 8px;
+    color: var(--title-font-color);
+}

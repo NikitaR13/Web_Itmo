@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Автосалон "Luxury Palace Saint-Petersburg"</title>
+    <meta name="description" content="Автосалон 'Luxury Palace Saint-Petersburg' предлагает эксклюзивные автомобили от ведущих мировых брендов. У нас вы найдете широкий выбор спорткаров и роскошных автомобилей.">
+    <meta name="keywords" content="автосалон, автомобили, спорткары, роскошные автомобили, купить автомобиль, новый автомобиль, авто, Luxury Palace Saint-Petersburg">
+    <link rel="stylesheet" href="css/rentalConstructor.css">
+    <script src="js/script.js"></script>
+</head>
+<body>
+
+<header class="header">
+    <h2 class="header__title">Автосалон "Luxury Palace Saint-Petersburg"</h2>
+    <nav>
+        <ul class="nav__list">
+            <li><a href="index.html" class="header__link">Главная</a></li>
+            <li><a href="Cars.html" class="header__link">Автомобили</a></li>
+            <li><a href="About.html" class="header__link">О нас</a></li>
+            <li><a href="Contacts.html" class="header__link">Контакты</a></li>
+            <li><a href="rentalConstructor.html" class="header__link">Конструктор</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main class="rental-constructor">
+<h1 class="constructor__title">Конструктор аренды</h1>
+
+<form id="rentalForm" class="constructor__form">
+    <label for="driver-license">Водительский стаж:</label>
+    <input type="number" id="driver-license" name="driver-license" min="1">
+
+    <label for="duration">Длительность аренды (дни):</label>
+    <input type="number" id="duration" name="duration" min="1" required>
+
+    <label for="car">Автомобиль:</label>
+    <input type="text" id="car" name="car" placeholder="Введите название автомобиля" required>
+
+    <button type="submit">Создать таблицу</button>
+</form>
+
+<template id="table-row-template">
+    <tr>
+        <td class="table__cell car"></td>
+        <td class="table__cell duration"></td>
+        <td class="table__cell price"></td>
+    </tr>
+</template>
+
+<div id="tableContainer" class="constructor__table-container"></div>
+
+</div>
+</main>
+
+<footer class="footer">
+    <p><strong>Формула успеха:</strong> <sub>Труд</sub> + <sup>Упорство</sup> = <sup>Успех</sup></p>
+    <p>&copy; 2023 Автосалон "Luxury Palace Saint-Petersburg"</p>
+    <p id="footer-info"></p>
+    <span class="load-time"></span>
+</footer>
+
+</body>
+<script src="../web1/js/loadTime"></script>
+<script src="../web1/js/menuActive.js"></script>
+<script src="../web1/js/table.js"></script>
+</html>

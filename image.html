@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Фотогалерея | Luxury Palace Saint-Petersburg</title>
+    <meta name="description" content="Фотогалерея автомобилей в автосалоне Luxury Palace Saint-Petersburg">
+    <meta name="keywords" content="авто, спорткары, фотографии, галерея, Luxury Palace Saint-Petersburg">
+    <link rel="stylesheet" href="css/imgPage.css">
+    <script src="js/script.js"></script>
+    <script defer src="../web1/js/imgUploader.js"></script>
+</head>
+<body>
+
+<header class="header">
+    <h2 class="header__title">Автосалон "Luxury Palace Saint-Petersburg"</h2>
+    <nav>
+        <ul class="nav__list">
+            <li><a href="index.html" class="header__link">Главная</a></li>
+            <li><a href="Cars.html" class="header__link">Автомобили</a></li>
+            <li><a href="About.html" class="header__link">О нас</a></li>
+            <li><a href="Contacts.html" class="header__link">Контакты</a></li>
+            <li><a href="rentalConstructor.html" class="header__link">Конструктор</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <section id="gallery" class="section">
+        <h2 class="section__title">Фотогалерея</h2>
+        <div id="preloader">Загрузка фотографий...</div>
+        <div id="photosContainer" class="photos-grid"></div>
+
+        <template id="photoTemplate">
+            <div class="photo-item">
+                <a class="photo-link" target="_blank">
+                    <img class="photo-thumbnail" />
+                </a>
+                <p class="photo-title"></p>
+            </div>
+        </template>
+    </section>
+</main>
+
+<footer class="footer">
+    <p>&copy; 2023 Автосалон "Luxury Palace Saint-Petersburg"</p>
+</footer>
+
+</body>
+<script src="../web1/js/menuActive.js"></script>
+</html>
